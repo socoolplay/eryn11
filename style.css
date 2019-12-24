@@ -46,6 +46,17 @@
     margin-left: 10px;
   }
   
+ /* 메뉴 아이콘 마우스 접근시 1.1배 크기 증가 효과 */ 
+
+ #main_header #util_menu > a {
+    margin-left: 10px;
+    transition: all ease 1s;
+  }
+  
+  #main_header #util_menu > a > i:hover{
+    transform: scale( 1.1 );
+ }
+
   /* 검색창 */
   #search_box {
     width: 540px; height: 55px;
