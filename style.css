@@ -46,9 +46,9 @@
  #main_header #util_menu > a {
     margin-left: 10px;
     transition: all ease 1s;
-  }
+ }
   
-  #main_header #util_menu > a > i:hover{
+ #main_header #util_menu > a > i:hover{
     transform: scale( 1.1 );
 }
 
