@@ -124,6 +124,12 @@
     padding: 19px 0px 15px 0px;
   }
 
+/* hover시 메뉴 언더라인 효과 */
+#main_gnb  ul  li  a:hover {
+  border-bottom: 3px solid #cccccc;
+  opacity: 80%;
+}
+
 
 /* 카테고리 메뉴 */
 #category {
@@ -147,7 +153,10 @@
     font-weight: bold;
     border-bottom: 3px solid #444;
   }
-
+#category dl dd a:hover {
+    border-bottom: 1px solid #cccccc;
+    opacity: 80%;
+  }
 
 
   /* 메인배너 */
@@ -205,7 +214,13 @@
 #new ul > li img {
     margin-bottom: 1em;
     display: block;
+    transition: all ease 1s;
 }
+
+#new ul > li img:hover{
+  transform: scale( 1.1 );
+}
+
 #new ul > li .title {
     font-size: 14px;
     display: block;
